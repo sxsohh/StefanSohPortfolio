@@ -1,13 +1,6 @@
 # Stefan Soh's Portfolio
 
-![image](https://github.com/user-attachments/assets/f80d6222-408c-4a8f-960a-fb13a1a0cd12)
-
-
-## If you are currently looking for a job
-Visit **[lowinertia.com](https://lowinertia.com/)** I am adding contents that I think would be helpful for those who either looking for preparing for internship or entry position application.
-
-
-
+![image](https://media.licdn.com/dms/image/v2/D5603AQF5e0H3s1zakQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722352828141?e=1753315200&v=beta&t=750HXGWXYMt_TEPYBxYTXuaD39yfSO_dW-n59olkfM8)
 
 ## Table of Contents
 

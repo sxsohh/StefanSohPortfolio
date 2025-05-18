@@ -3,109 +3,33 @@
 ![image](https://media.licdn.com/dms/image/v2/D5603AQF5e0H3s1zakQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722352828141?e=1753315200&v=beta&t=750HXGWXYMt_TEPYBxYTXuaD39yfSO_dW-n59olkfM8)
 
 ## Table of Contents
-
-### 1. Setting Up Your Page on GitHub (5 min)
-- [Getting Started](#getting-started)
-  - [Setup GitHub Account](#setup-github-account)
-  - [Use the Template](#Use-the-template)
-
-### 2. Personalizing Your Portfolio (10+ min)
-- [Set Up Your Profile](#set-up-your-profile)
-  - [Open `_config.yml`](#open-_configyml)
-- [Adding Projects](#adding-projects)
-  - [Creating a Markdown File in GitHub](#creating-a-markdown-file-in-github)
-
-### 3. Understanding Markdown for Your Project Page
-- [YAML Frontmatter](#yaml-frontmatter)
-- [Adding Contents](#adding-contents)
-  - [Section Title](#section-title)
-  - [Sub-Section Title](#sub-section-title)
-  - [Adding a New Line](#adding-a-new-line)
-  - [Adding a Horizontal Line](#adding-a-horizontal-line)
-  - [Embedding Images](#embedding-images)
-  - [Embedding YouTube Video](#embedding-youtube-video)
-  - [Adding Bold Text](#adding-bold-text)
-  - [Adding Italic Text](#adding-italic-text)
-  - [Adding Ordered List](#adding-ordered-list)
-  - [Adding Unordered List](#adding-unordered-list)
-  - [Adding Code Block](#adding-code-block)
-  - [Adding External Links](#adding-external-links)
-  - [Adding Block Quote](#adding-block-quote)
-  - [Adding Table](#adding-table)
-
-
-
-## Getting Started:
-
-### Setup GitHub Account
-1. **Visit GitHub**: If you don't have an account, go to [GitHub](https://github.com/) and sign up.
-2. **Create an Account**: Fill out the registration form with your preferred username, email, and password.
-3. **Verify Your Email**: Check your email to verify your account.
-### Fork the Template
-
-1. **Navigate to FreeToEngineer Repository**: Go to the repository where this portfolio template is [hosted](https://github.com/leea12/freeToEngineer)
-2. **Use the template**: Click the "Use this template" button at the top right of the page. Then, choose create a new repository. This creates a copy under your GitHub account. If you can also click on the "star", it will help the template to get visibility to many others!
-
-   ![GitHub Use Template](/assets/readme/github-use-template.png)
-
-3. **[IMPORTANT] Name the repository**: in the "Repository name" field, type in `{your github id}.github.io`.This is also the url of your portfolio. You can use your custom domain as well. (change in the setting later)
-
-   ![GitHub Use Template](/assets/readme/github-name-repository.png)
-4. Click "Create repository"
-5. **That's it!** Now, you have a portfolio webiste @ [your id].github.io. You may have to wait for up to 1 minute for github to finish building.
-6. **[Good to know]** you can see the status of your website by going to settings - pages.
-   ![GitHub Use Template](/assets/readme/github-pages.png)
-
-## Set up Your profile
-
-### Open `_config.yml`
-This file contains the configuration settings for your site. Here's what you might want to change: 
-After you are done. just click **"commit chages"** to apply. Give a minute or so for github to build your website.
-
-
-- **Site Title**: Change the `title:` this is what shows up in the tab of the browser on your site
-- **Name**: Change the `name:` your name will show up as seen above
-- **Description**: Update the `description:` with a brief overview of your highlights and qualification
-- **profile_image**: place your profile image in assets/profile folder and update the directory
-- **Resume-url**: You can either link to externally stored pdf (ex. google drive) or save the pdf under assets/pdf/ folder and enter the directory  
-
-![GitHub Use Template](/assets/readme/main-page.png)
-
-<br>
-
-- **External Links**: link your external accounts (linkedin, github, stackoverflow, medium, etc)
-![GitHub Use Template](/assets/readme/external-link.png) 
-Only the icons for the accounts that you enter will appear.
-*Example*:
+- **External Links**
   ```yaml
-    external-links:    # input only your own url slug. The icons with missing entries will not appear.
-      linkedin: johndoe1       # https://www.linkedin.com/in/{your url slug} 
-      github: johndoe1         # https://github.com/{your url slug} 
-      stackoverflow: johndoe1  # https://stackoverflow.com/users/{your url slug}
+      linkedin:       # https://www.linkedin.com/in/stefanxsoh/ 
+      github:         # https://github.com/sxsohh 
   ```
 
 
-- **Skills**: you can list your skills by category. It will  show up like below. Be careful with the identation.
-![GitHub Use Template](/assets/readme/skills.png) 
-  *Example*:
+- **Skills**:
     ```yaml
       skills:
-        - category: 3D Modeling
-          tools:
-          - Onshape
-          - Solidworks
-          - Creo
-          - Fusion 360 
+        - category: Technical
+          - Python
+          - Data Structures & Algorithms: Understanding of arrays, linked lists, stacks, queues, trees, recursion, and sorting algorithms
+          - Data Analysis: Ability to collect, clean, transform, and analyze datasets
+          - Data Visualization: Experience generating visual insights using open-source tools (matplotlib) 
         
-        - category: Prototyping
-          tools:
-          - SLA
-          - CNC
-          - FDM
-          - SLS
-          - DMLS
-          - PolyJet Printing
-          - Vacuum Casting
+        - category: Analytical/Research
+          - Impact Evaluation: Measuring program effectiveness (Move For Hunger)
+          - Comparative Financial Analysis: Comparing returns and creating performance benchmarks (Cannataro internship)
+          - Problem Solving: Designing and debugging algorithms and visual data narratives
+          - Partnership Research: Outreach and stakeholder mapping
+
+        - category: Soft Skills
+          - Collaboration & Teamwork: Frequent hands-on group projects and community engagement
+          - Time Management: Balanced rigorous academics, basketball, and multiple internships
+          - Communication: Comfortable presenting findings through both writing and public speaking
+          - Adaptability: Worked in diverse settings — from nonprofit teams to finance environments
     ```
 - **Contact Form**: you can set up the contact form to send the response to your email using [formspree](https://formspree.io/). You just need to sign up and create a new form. Then, add the 8-digit endpoint key!
  
